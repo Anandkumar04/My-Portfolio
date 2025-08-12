@@ -82,7 +82,15 @@
         observer.observe(el);
     });
     // Form submission (placeholder)
-    document.querySelector('.contact-form').addEventListener('submit', (e) => {
-        e.preventDefault();
-        alert('Thank you for your message! This is a demo form.');
-    });
+    const contactForm = document.querySelector('.contact-form');
+    if (contactForm) {
+        contactForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+            const subject = encodeURIComponent('Portfolio Contact from ' + name);
+            const body = encodeURIComponent('Name: ' + name + '\nEmail: ' + email + '\nMessage: ' + message);
+            window.location.href = `mailto:kethaanandkumar4@email.com?subject=${subject}&body=${body}`;
+        });
+    }
