@@ -402,12 +402,16 @@
         margin-bottom: 1rem;
     }
     .footer-social a {
-        color: var(--white);
+/*         color: var(--white); */
+        color: #fff !important;
         font-size: 1.5rem;
         transition: var(--transition);
     }
     .footer-social a:hover {
         color: var(--primary-color);
+    }
+    .dark-mode .footer p {
+        color: #fff !important;
     }
     /* Dark Mode */
     .dark-mode {
