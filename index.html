@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Anand Kumar Ketha's personal portfolio showcasing skills in web development, React, Node.js, MongoDB, and projects.">
+    <meta name="author" content="Anand Kumar Ketha">
+    <title>Anand Kumar | Portfolio</title>
+    <link rel="icon" href="pwfavicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Boxicons -->
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <a href="#home" class="logo">Anand Kumar</a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div style="display: flex; align-items: center; gap: 1rem;">
+                <button class="theme-toggle" id="theme-toggle">
+                    <i class="bx bx-moon"></i>
+                </button>
+                <button class="mobile-menu" id="mobile-menu">
+                    <i class="bx bx-menu"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Hello, I'm <span class="highlight">Anand Kumar Ketha</span></h1>
+                <p>Aspiring software engineer passionate about web development, problem-solving, and creating impactful, user-friendly solutions."</p>
+                <div class="cta-buttons">
+                    <a href="https://drive.google.com/file/d/1vJO_22TTV28D6Rm_gh_jeKZj6hYbeUlJ/view" target="_blank" class="btn btn-primary">
+                        <i class="bx bx-download"></i>
+                        Download Resume
+                    </a>
+                    <a href="#projects" class="btn btn-secondary">View Projects</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/anandkumarketha/" target="_blank" class="social-link">
+                        <i class="bx bxl-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/Anandkumar04" target="_blank" class="social-link">
+                        <i class="bx bxl-github"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div style="width: 300px; height: 300px; background: linear-gradient(45deg, var(--primary-color), var(--primary-dark)); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto; box-shadow: var(--shadow-lg);">
+                    <i class="bx bx-code-alt" style="font-size: 8rem; color: white;"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <h2 class="section-title fade-in">About Me</h2>
+        <div class="about-content">
+            <div class="about-text fade-in">
+                <h3>I'm Anand Kumar Ketha</h3>
+                <p>Aspiring software engineer with a passion for full-stack development and creative problem-solving. Currently pursuing B.Tech in Computer Science and Engineering at SRKR Engineering College, I specialize in React, Node.js, and MongoDB, with a growing interest in AI/ML. My goal is to build innovative, user-focused solutions that create real-world impact.</p>
+                <ul class="about-details">
+                    <li><strong>Location:</strong> Bhimavaram, Andhra Pradesh, India</li>
+                    <li><strong>Education:</strong> B.Tech, SRKR Engineering College</li>
+                    <li><strong>Interests:</strong> Coding, Web Development, AI/ML, UI/UX and Tech Innovations</li>
+                    <li><strong>Experience:</strong> Full-Stack Projects</li>
+                </ul>
+            </div>
+            <div class="about-visual fade-in">
+                <div style="width: 250px; height: 250px; background: linear-gradient(135deg, var(--primary-color), var(--primary-dark)); border-radius: 20px; display: flex; align-items: center; justify-content: center; margin: 0 auto; box-shadow: var(--shadow-lg);">
+                    <i class="bx bx-user" style="font-size: 6rem; color: white;"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section" id="skills">
+        <h2 class="section-title fade-in">Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category fade-in">
+                <h3>Frontend</h3>
+                <ul class="skills-list">
+                    <li class="skill-item">
+                        <i class="bx bxl-html5 skill-icon" style="color: #e34f26;"></i>
+                        <span>HTML5</span>
+                    </li>
+                    <li class="skill-item">
+                        <i class="bx bxl-css3 skill-icon" style="color: #1572b6;"></i>
+                        <span>CSS3</span>
+                    </li>
+                    <li class="skill-item">
+                        <i class="bx bxl-javascript skill-icon" style="color: #f7df1e;"></i>
+                        <span>JavaScript</span>
+                    </li>
+                    <li class="skill-item">
+                        <i class="bx bxl-react skill-icon" style="color: #61dafb;"></i>
+                        <span>React</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="skill-category fade-in">
+                <h3>Backend</h3>
+                <ul class="skills-list">
+                    <li class="skill-item">
+                        <i class="bx bxl-nodejs skill-icon" style="color: #339933;"></i>
+                        <span>Node.js</span>
+                    </li>
+                    <li class="skill-item">
+                        <i class="bx bx-server skill-icon"></i>
+                        <span>Express.js</span>
+                    </li>
+                    <li class="skill-item">
+                        <i class="bx bxl-mongodb skill-icon" style="color: #47a248;"></i>
+                        <span>MongoDB</span>
+                    </li>
+                    <li class="skill-item">
+                        <i class="bx bx-data skill-icon"></i>
+                        <span>SQL</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="skill-category fade-in">
+                <h3>Soft Skills</h3>
+                <ul class="skills-list">
+                    <li class="skill-item">
+                        <i class="bx bx-bulb skill-icon"></i>
+                        <span>Problem Solving</span>
+                    </li>
+                    <li class="skill-item">
+                        <i class="bx bx-group skill-icon"></i>
+                        <span>Teamwork</span>
+                    </li>
+                    <li class="skill-item">
+                        <i class="bx bx-chat skill-icon"></i>
+                        <span>Communication</span>
+                    </li>
+                    <li class="skill-item">
+                        <i class="bx bx-palette skill-icon"></i>
+                        <span>Creativity</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects" id="projects">
+        <h2 class="section-title fade-in">Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card fade-in">
+                <div class="project-image">
+                    <i class="bx bx-check-square"></i>
+                </div>
+                <div class="project-content">
+                    <h3>Todo List App</h3>
+                    <p>A productivity app to manage daily tasks efficiently with a clean, intuitive interface.</p>
+                    <a href="https://white-tree-0fa206210.2.azurestaticapps.net/" target="_blank" class="project-link">
+                        View Live Demo <i class="bx bx-link-external"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="project-card fade-in">
+                <div class="project-image">
+                    <i class="bx bx-chat"></i>
+                </div>
+                <div class="project-content">
+                    <h3>Chat Application</h3>
+                    <p>Real-time chat application for seamless communication with modern UI/UX design.</p>
+                    <a href="https://chat-app-phi-five-89.vercel.app/" target="_blank" class="project-link">
+                        View Live Demo <i class="bx bx-link-external"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="project-card fade-in">
+                <div class="project-image">
+                    <i class="bx bx-bot"></i>
+                </div>
+                <div class="project-content">
+                    <h3>AI ChatBot</h3>
+                    <p>AI-powered chatbot integrated with external APIs for intelligent conversations.</p>
+                    <a href="https://ai-search-eta.vercel.app/" target="_blank" class="project-link">
+                        View Live Demo <i class="bx bx-link-external"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="project-card fade-in">
+                <div class="project-image">
+                    <i class="bx bx-game"></i>
+                </div>
+                <div class="project-content">
+                    <h3>Online Gaming Store</h3>
+                    <p>A responsive and visually engaging online gaming store frontend built to showcase and explore games with an immersive user experience.</p>
+                    <a href="https://online-gaming-store.vercel.app/" target="_blank" class="project-link">
+                        View Live Demo <i class="bx bx-link-external"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="project-card fade-in">
+                <div class="project-image">
+                    <i class="bx bx-calendar-check"></i>
+                </div>
+                <div class="project-content">
+                    <h3>Appointment Booking Platform</h3>
+                    <p>A seamless appointment booking platform enabling users to schedule, manage, and track appointments with an intuitive, user-friendly interface.</p>
+                    <a href="https://book-easy-nine.vercel.app/" target="_blank" class="project-link">
+                        View Live Demo <i class="bx bx-link-external"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="project-card fade-in">
+                <div class="project-image">
+                    <i class="bx bx-file-find"></i>
+                </div>
+                <div class="project-content">
+                    <h3>Resume Screening System</h3>
+                    <p>An AI-powered resume screening system that efficiently filters and shortlists candidates based on job-specific requirements</p>
+                    <a href="https://resume-screening-ai-isvt.onrender.com/" target="_blank" class="project-link">
+                        View Live Demo <i class="bx bx-link-external"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <h2 class="section-title fade-in">Get In Touch</h2>
+        <div class="contact-content">
+            <form class="contact-form fade-in" action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">
+                    <i class="bx bx-send"></i>
+                    Send Message
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-social">
+            <a href="https://www.facebook.com/anandkumar.ketha" target="_blank"><i class="bx bxl-facebook"></i></a>
+            <a href="https://www.instagram.com/_anand__kumar_24/" target="_blank"><i class="bx bxl-instagram"></i></a>
+            <a href="https://x.com/ketha_anand" target="_blank"><i class="bx bxl-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/anandkumarketha/" target="_blank"><i class="bx bxl-linkedin"></i></a>
+        </div>
+        <p>&copy; <span id="year">2024</span> Anand Kumar Ketha. All rights reserved.</p>
+        <p>Made with ❤️ By AK</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
+
+        
